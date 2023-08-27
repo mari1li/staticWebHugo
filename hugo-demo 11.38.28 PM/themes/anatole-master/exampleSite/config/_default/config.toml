@@ -1,18 +1,12 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Demo for Hugo'
-
-theme = 'anatole-master'
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Jane Doe"
 
 # theme as hugo module
 #theme = "github.com/lxndrblz/anatole"
 # theme as git submodule
-
-[params]
-title = "Kafka Engdoc"
-author = "By Team Messaging Platform"
-description = "Kafka Documentation Page"
-profilePicture = "/images/Bellingham.jpg"
+theme = "anatole"
 
 summarylength = 10
 enableEmoji = true
@@ -52,5 +46,3 @@ localizedDates = false
 [[related.indices]]
   name = 'tags'
   weight = 80
-
-
